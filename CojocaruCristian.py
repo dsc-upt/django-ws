@@ -8,3 +8,6 @@ response = requests.get('https://api.github.com/repos/mateasmario/django-trainin
 responseJson = response.json()
 print(response)
 print(responseJson['Python'])
+print(responseJson)
+print(responseJson['JavaScript'])
+print(responseJson['HTML'])
