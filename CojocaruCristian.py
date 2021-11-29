@@ -4,7 +4,7 @@ headers = {
     'Accept': 'application/vnd.github.v3+json',
 }
 
-response = requests.get('https://api.github.com/repos/octocat/hello-world/languages', headers=headers)
-responseJson = response.json(headers)
+response = requests.get('https://api.github.com/repos/mateasmario/django-training/languages', headers=headers)
+responseJson = response.json()
 print(response)
-print(responseJson ['name'])
+print(responseJson['Python'])
